@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dice Roller</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="Scripts/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Scripts/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/app.css">
 </head>
 
 <body>
-
+    <div class="container">
+        <!-- Dice Container -->
+        <div class="row">
+            <div class="col-md-offset-2 col-md-4">
+                <img src="" alt="" id="die1">
+            </div>
+            <div class="col-md-4">
+                <img src="" alt="" id="die2">
+            </div>
+        </div>
+        
+        <!-- Label Container -->
+        <div class="row">
+            <div class="col-md-offset-2 col-md-4">
+                <label id="labelDie1"></label>
+            </div>
+            <div class="col-md-4">
+                <label id="labelDie2"></label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-offset-4 col md-4">
+                <button id="rollButton"></button>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Section -->
+    <script src="Scripts/lib/jquery/dist/jquery.min.js"></script>
+    <script src="Scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
 </body>
 
 </html>
